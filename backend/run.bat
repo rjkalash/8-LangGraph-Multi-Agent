@@ -1,0 +1,3 @@
+@echo off
+echo Starting LangGraph FastAPI Backend...
+venv2\Scripts\uvicorn main:app --host 0.0.0.0 --port 8000 --reload
